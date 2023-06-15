@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timups</title>
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <!--owl slider stylesheet -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <!-- font awesome style -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+    <style>
+        .form-frame {
+            margin-bottom: 5px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            padding: 125px;
+            border-radius: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero_area">
+        <div class="hero_social">
+            <a href="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <header class="header_section">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg custom_nav-container ">
+                    <a class="navbar-brand" href="index.html">
+                        <span>
+                            SWARTWATCH NVA3
+
+                        </span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class=""> </span>
+                    </button>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container ">
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                    <nav class="navbar navbar-primary bg-primary ">
+                        
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="Tìm kiếm sản phẩm" placeholder="Tìm kiếm sản phẩm"
+                                aria-label="Tìm kiếm sản phẩm">
+                            <button class="btn btn-light my-2 my-sm-0" type="submit"><i class="fa fa-search"
+                                    aria-hidden="true"></i></button>
+                                   
+                        </form>
+                        <a href=""><i class="fa fa-sign-out text-light" aria-hidden="true"></i></a>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+
+                    <div class="form-frame">
+                        <label for="image"></label>
+                    </div>
+                    <input type="file" class="form-control-file" id="image">
+
+                </div>
+                <div class="col-8">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="product-name">Mã sản phẩm</label>
+                            <input type="text" class="form-control" id="product-name" placeholder="Nhập mã sản phẩm">
+                        </div>
+                        <div class="form-group">
+                            <label for="description">Tên Hãng</label>
+                            <input type="text" class="form-control" id="product-name" placeholder="Nhập hãng sản phẩm">
+                        </div>
+                        <div class="form-group">
+                            <label for="product-name">Tên sản phẩm</label>
+                            <input type="text" class="form-control" id="product-name" placeholder="Nhập tên sản phẩm">
+                        </div>
+                        <div class="form-group">
+                            <label for="description">Giá</label>
+                            <input type="text" class="form-control" id="product-name" placeholder="Nhập giá">
+                        </div>
+                        <div class="text-right">
+                            <button type="button" class="btn btn-primary">Thêm sản phẩm</button>
+                            <button type="button" class="btn btn-primary">Làm mới</button>
+                        </div>
+
+                    </form>
+
+                </div>
+                <table class="table table-hover mt-2">
+                    <thead>
+                        <tr>
+                            <th scope="col">Mã sản phẩm</th>
+                            <th scope="col">Hãng sản phẩm</th>
+                            <th scope="col">Tên sản phẩm</th>
+                            <th scope="col">Giá </th>
+                            <th scope="col">Ảnh </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>...</th>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>
+                                <a href=""><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                                <a href=""><i class="fa fa-trash text-danger" aria-hidden="true"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>...</th>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>
+                                <a href=""><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                                <a href=""><i class="fa fa-trash" aria-hidden="true"></i></a>
+                            </td>
+                        </tr>
+                       
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+
+    <!-- jQery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- popper js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.js"></script>
+    <!-- owl slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+    <!-- Google Map -->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+    <!-- End Google Map -->
+</body>
+
+</html>
